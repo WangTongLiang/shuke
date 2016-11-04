@@ -1,0 +1,49 @@
+/*
+* @Author: Haitai
+* @Date:   2016-11-02 09:38:11
+* @Last Modified by:   Haitai
+* @Last Modified time: 2016-11-03 16:42:53
+*/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background: #f1f1f1;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}

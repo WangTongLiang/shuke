@@ -1,0 +1,170 @@
+/*
+* @Author: Haitai
+* @Date:   2016-11-02 12:33:20
+* @Last Modified by:   Haitai
+* @Last Modified time: 2016-11-04 13:39:15
+*/
+
+.file_layout {
+    min-width: 320px;
+    max-width: 730px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*搜索头部*/
+
+.file_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102px;
+    z-index: 999;
+}
+
+
+/*搜索头部的内容*/
+
+.file_header .file_header_box {
+    min-width: 320px;
+    max-width: 730px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(80, 173, 230, 1);
+    height: 102px;
+    border-bottom: 2px solid #489BCF;
+}
+
+.file_header_box .icon_back {
+    display: block;
+    height: 47px;
+    width: 40px;
+    background-image: url(../images/titlebar_back_inormal1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 28px;
+    left: 41px;
+}
+
+.file_header_box .file_manage {
+    position: absolute;
+    top: 33px;
+    left: 90px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.file_search {
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+}
+
+.file_search .file_search_box {
+    min-width: 320px;
+    max-width: 730px;
+    margin: 0 auto;
+    position: relative;
+    height: 84px;
+    text-align: center;
+    line-height: 84px;
+}
+
+.file_search .file_search_box p {
+    font-size: 20px;
+    color: #747474;
+}
+
+#file_detail {
+    width: 100%;
+    padding: 0 34px;
+}
+
+#file_detail table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+#file_detail table tr {}
+
+#file_detail table tr td {
+    word-break: break-all;
+    height: 84px;
+    color: #3b3b3b;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#file_detail table tr td:first-child {
+    width: 25%;
+    border-right: 2px solid #e5e5e5;
+    text-align: center;
+}
+
+#file_detail table tr:last-child td {
+    border-bottom: none;
+}
+
+#file_detail table tr td:nth-child(2) {
+    padding: 10px 20px;
+}
+
+#file_detail .wrap_more {
+    height: 49px;
+    margin: 40px 34px 40px 60px;
+    position: relative;
+}
+
+#file_detail .more {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -96px;
+    width: 192px;
+    height: 100%;
+    border-radius: 24px;
+    border: 2px solid #e5e5e5;
+}
+
+#file_detail .more a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 49px;
+}
+
+#file_detail .fujian {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#file_detail .fujian li {
+    border-bottom: 2px solid #e5e5e5;
+    height: 94px;
+    line-height: 94px;
+}
+
+#file_detail .fujian li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#file_detail .fujian li:first-child {
+    height: 96px;
+}
+
+#file_detail .fujian .pic-div {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#file_detail .fujian .prolist-content {
+    padding-left: 100px;
+}
